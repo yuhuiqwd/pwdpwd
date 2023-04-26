@@ -1,0 +1,117 @@
+.top{
+    height: 60px;
+    width: auto;
+    display: flex;
+    /* background: url(./img/R-C.jpg); */
+
+}
+.one{
+    display: flex;
+    flex: 2; 
+} 
+.one:nth-child(1){
+    flex: 2;
+    color: aliceblue;
+}
+.one:nth-child(2){
+    flex:4;
+}
+.one:nth-child(3){
+    flex:3;
+    margin-right: 10px;
+    height: 30px;
+    margin-top: 40px;
+    color: aliceblue;
+}
+.two{
+    margin-top:38px;
+    /* width: 20px; */
+}
+.two:nth-child(1){
+    margin-left: 100px;
+}
+.two:nth-child(2){
+    margin-left: 100px;
+}
+.one h1{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    /* color: black; */
+}
+/* 主体盒子设计部分 */
+#body1{
+    display: block flex;
+    /* background: url(./img/R-C.jpg); */
+}
+/* 首页板块的设计 */
+.tupian{
+    display: flex;
+    flex:2;
+}
+.tupian:nth-child(1){
+    flex:3;
+    /* background-color: aquamarine; */
+}
+.tupian:nth-child(2){
+    flex: 7;
+    margin: 0
+}
+.liebiao{
+    height: 400px;
+    width: 300px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.liebiao ul{
+    list-style: none;
+    line-height: 70px;
+    margin-top: 50px;
+    margin-left: 7px;
+}
+/* .cd{
+    margin-left: 20px;
+} */
+#ab{
+    margin-left: 180px;
+}
+#boxc{
+    height:100% ;
+    width: 100%;
+    /* background-color:wheat */
+}
+/* 数据页部分 */
+.ef{
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 300px;
+}
+.cz{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.titles{
+    height: 50px;
+}
+.titles{
+    flex-direction: column;
+}
+.body{
+    display: flex;
+}
+.titles:nth-child(2){
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1000px;
+}
+#tit{
+    height: 100%;
+    width: 100%;
+}
